@@ -1,0 +1,67 @@
+{
+  "name": "ainative-ollama",
+  "version": "1.0.0",
+  "description": "Drop-in replacement for the ollama npm package with AINative cloud fallback when local Ollama is unavailable",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/basic.test.js"
+  },
+  "keywords": [
+    "ollama",
+    "ollama-alternative",
+    "ollama-cloud",
+    "llama",
+    "llama-api",
+    "ai",
+    "llm",
+    "chat-completion",
+    "local-first",
+    "cloud-fallback",
+    "ainative",
+    "zerodb",
+    "free-llm",
+    "free-api",
+    "openai-compatible",
+    "deepseek",
+    "qwen",
+    "claude",
+    "cursor",
+    "windsurf",
+    "codex",
+    "auto-provisioning",
+    "serverless-llm",
+    "model-context-protocol",
+    "mcp",
+    "tool-calling"
+  ],
+  "author": "AINative Studio <engineering@ainative.studio>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/ainative-ollama.git"
+  },
+  "homepage": "https://github.com/AINative-Studio/ainative-ollama#readme",
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/ainative-ollama/issues"
+  },
+  "peerDependencies": {
+    "ollama": "^0.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
