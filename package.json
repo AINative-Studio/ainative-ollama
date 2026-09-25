@@ -1,6 +1,6 @@
 {
   "name": "ainative-ollama",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in replacement for the ollama npm package with AINative cloud fallback when local Ollama is unavailable",
   "main": "index.cjs",
   "module": "index.js",
@@ -52,11 +52,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AINative-Studio/ainative-ollama.git"
+    "url": "https://github.com/AINative-Studio/"
   },
-  "homepage": "https://github.com/AINative-Studio/ainative-ollama#readme",
+  "homepage": "https://ainative.studio/compare",
   "bugs": {
-    "url": "https://github.com/AINative-Studio/ainative-ollama/issues"
+    "url": "https://github.com/AINative-Studio/"
   },
   "peerDependencies": {
     "ollama": "^0.6.3"
